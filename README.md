@@ -29,7 +29,7 @@ aws-docker-nginx-https/
 │── screenshots/
     ├── 01-ec2-instance.png
     ├── 02-nginx-config.png
-    ├── 03-docker-running.png
+    ├── 03-Security groups-ports.png
     └── 04-https-working.png
 ```
 
@@ -39,12 +39,6 @@ aws-docker-nginx-https/
 docker build -t myapp .
 docker run -d -p 8000:8000 myapp
 ```
-
-## 🔑 Replace Placeholders
-- `example.com` in `nginx.conf` → replace with your actual domain
-- Add your real screenshots in the `screenshots/` folder
-
----
 
 👩‍💻 Project by Esther Rani  
 #AWS #DevOps #Docker #Nginx #CloudComputing #Linux
